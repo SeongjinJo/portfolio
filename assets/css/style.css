@@ -8,6 +8,12 @@
     font-style: normal;
 }
 
+#gitlink > a{
+    font-family: 'NEXON Lv1 Gothic OTF Light';
+    color: #DCD9D9;
+    text-decoration: none;
+}
+
 .nexon, .project-content span, .project-content div {
     font-family: 'NEXON Lv1 Gothic OTF Light';
 }
