@@ -1,38 +1,5 @@
-/*
-* Dew Templates (Personal Portofolio)
-* Created by : vavelo
-* Version : 1.1
-*/
 
-/* INDEX OF CONTENTS CSS
-=================================================
-  XX. GOOGLE FONTS & FONTS FAMILY
-  01. TYPOGRAPHY
-  02. GENERAL
-  03. PRELOADER
-  04. NAVIGATION
-  05. HOME
-  06. ABOUT
-  07. SKILLS
-  08. PORTFOLIO
-  09. SERVICES
-  10. HIRE
-  11. TESTIMONIALS
-  12. BLOG
-  13. CONTACT
-  14. BLOG POST
-  15. POST
-*/
-
-/* XX. GOOGLE FONTS & FONTS FAMILY
-=================================================*/
-
-/*
-font-family: 'Hind', sans-serif;
-font-family: 'Lato', sans-serif;
-*/
-
-/* 01. TYPOGRAPHY
+/* TYPOGRAPHY
 =================================================*/
 @font-face {
     font-family: 'NEXON Lv1 Gothic OTF Light';
@@ -734,7 +701,45 @@ body {
 /* 08. PORTFOLIO
 =================================================*/
 
+.githubtitle {
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
 .pj-title {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    margin: 5px 5px 10px -10px;
+    border-radius: 5px;
+    padding: 10px ;
+    display: inline-block;
+
+}
+.project-function {
+
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+    padding: 5px 5px 5px 10px;
+    background-color: black;
+    color: white;
+    width: 110px;
+    border-radius: 5px;
+
+}
+
+.project-content span {
+    font-weight: bold;
+}
+.project-content h4 {
+    margin-bottom: 5px;
+}
+
+.project-content p {
+    font-size: 12px;
+    border-bottom: 1px solid grey;
+    display: inline-block;
     
 }
 
@@ -781,11 +786,9 @@ body {
 
 .grid {
 	position: relative;
-	margin: 0 auto;
 	padding: 2em 0 2em 2em;
-	max-width: 1000px;
+	max-width: 1100px;
 	list-style: none;
-    margin-left: 30px;
 }
 
 .grid figure {
@@ -827,7 +830,7 @@ body {
 	position: absolute;
 	background-color: #fff;
 	top: 10px;
-	bottom: 10px;
+	bottom: 40px;
 	left: 10px;
 	right: 10px;
 	content: '';
@@ -907,13 +910,14 @@ body {
 
 .project-content {
     margin-left: 400px;
-    margin-right: 40px;
+    margin-right: 20px;
     line-height: 2em;
     letter-spacing: 0.7px;
 
 }
 
 .mix {
+    border-radius: 10px;
     background-color:#E6E6E6;
     margin-bottom: 20px;
 }
@@ -1074,7 +1078,7 @@ body {
 	transform: scale(1.2);
 }
 
-/* 13. CONTACT
+/* CONTACT
 =================================================*/
 
 #contact {
@@ -1330,7 +1334,7 @@ fieldset {
 	color: #131313;
 }
 
-/* 15. FOOTER
+/* FOOTER
 =================================================*/
 
 #footer {
