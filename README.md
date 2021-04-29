@@ -1,3 +1,3 @@
 # portfolio
-Developer 포트폴리오
+https://seongjinjo.github.io/portfolio/index.html
 ..
